@@ -1,21 +1,31 @@
-import React, { Component, Link } from 'react';
-import logo from '../Assets/Images/logo.png';
-import hero from '../Assets/Images/railbridge.jpeg';
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+
+
+// import Bio from '../Assets/Images/bio.png';
+
+
 
 export default class Navigation extends Component {
   render() {
     return (
       <div className="nav">
-        <img src={logo} alt='logo-gold background with a douglas fir tree in black on the left and the initials JH on the right' height='120px' />
-        <img src={hero} alt='Portland Oregon Rail bridge, lit for dusk' />
-      </div>
+        <Link to='/bio'>
+          Bio
+        </Link>
+        <Link to='/'>
+          Home
+    </Link>
+        <Link to='/contact'>
+          Contact
+  </Link>
+        <Link to='/projects'>
+          Projects
+  </Link>
+      </div >
+
     );
   }
 }
-
-
-
-
-
 
 
