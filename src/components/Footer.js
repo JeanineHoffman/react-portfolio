@@ -8,7 +8,7 @@ export default class Footer extends Component {
     return (
       <div className='footer'>
         <Link
-          to='/'><img src={logo} className="logo-footer" alt='logo-gold background with a douglas fir tree in black on the left and the initials JH on the right' height='75px' /></Link>
+          to='/'><img src={logo} className="logo" alt='logo-gold background with a douglas fir tree in black on the left and the initials JH on the right' /></Link>
         <p className='copyright'>Jeanine Hoffman © 2019</p>
       </div>
     );
