@@ -71,6 +71,36 @@ body {
 } */
 /* END General Styles
  ------------------------------*/
+/* begin Nav styles */
+
+.navWrap {
+  display: grid;
+  grid-auto-columns:1fr 1fr ;
+  grid-auto-rows: 14em;
+}
+
+.logo {
+  height: 6rem;
+  background-color: aqua;
+}
+
+.navBar {
+  background-color: purple;
+  margin-left: -5rem;
+}
+
+.navBtn {
+  height: 6rem;
+  width: 6rem;
+  background-color: var(--red);
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+
+
+
+
 /* Begin Header Styles */
 .banner {
   display: grid;
@@ -149,8 +179,8 @@ body {
 /* Begin Footer Styles */
 .footerWrap{
   display:grid;
-  grid-tremplate-columns: 1fr 1fr 1fr;
-  grid-tremplate-rows: 6rem; 
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 6rem; 
 }
 .footerLogo{
   height: 5rem;
