@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import linkedin from '../Assets/Images/linkedin.jpeg';
+import github from '../Assets/Images/github.png';
+import email from '../Assets/Images/email.jpeg';
 
 
 
@@ -8,11 +11,11 @@ export default class Contact extends Component {
       <section className="contactSection" aria-label="contact section"  >
         <h2>Find me:</h2>
         <a href="mailto:jeaninehoffman42@gmail.com">
-          <img className="email" src="../Assets/Images/email.jpeg" alt="email link" target="_blank" rel="noopener noreferrer"/></a>
+          <img className="email" src={email} alt="email link" target="_blank" rel="noopener noreferrer"/></a>
         <a href="https://github.com/JeanineHoffman">
-          <img class="github" src="../Assets/Images/github.png" alt="Github link" target="_blank" rel="noopener noreferrer" /></a>
+          <img className="github" src={github} alt="Github link" target="_blank" rel="noopener noreferrer" /></a>
         <a href="https://www.linkedin.com/in/jeanine-hoffman42">
-          <img class="linkedin" src="../Assets/Images/linkedin.jpeg" alt="LinkedIn link" target="_blank" rel="noopener noreferrer" /></a>
+          <img className="linkedin" src={linkedin} alt="LinkedIn link" target="_blank" rel="noopener noreferrer" /></a>
       </section>
     );
   }

@@ -6,9 +6,10 @@
  ------------------------------*/
 
 /* Color Variables */
+
 :root {
   --green: #0f651d;
-  --background: #f0e8cc;
+  --background: #d5c797;
   --gold: #ffc261;
   --gray: #504d4d;
   --white: #fff;
@@ -29,42 +30,209 @@ main {
 }
 
 body {
-  font-family: "Barlow", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Barlow", -apple-systrem, BlinkMacSystremFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color:#f0e8cc;
-}
-
-/* .App{
-  display:grid;
-  grid-auto-columns: 1fr 1fr;
-
-} */
-/* END General Styles
- ------------------------------*/
-/* Begin Header Styles */
-.banner {
-  display: grid;
-  grid-auto-columns: 1fr 1fr 2fr;
   background-color:var(--background);
 }
-.logo{
-  height:10em;
-  grid-column: 1fr
+
+/* END General Styles
+ ------------------------------*/
+
+/* begin Nav styles */
+
+.navWrap {
+  display: grid;
+  grid-auto-columns:1fr 1fr ;
+  grid-auto-rows: 14em;
 }
-.title{
-  color:var(--green);
-  font-weight: 900;
-  font-size: 3em;
+
+.logo {
+  height: 6rem;
+  background-color: aqua;
 }
-.subTitle{
-  color:var(--green);
-  font-weight: 600;
-  font-size: 2em;
+
+.navBar {
+  background-color: purple;
+  margin-left: -5rem;
 }
-.title .subtitle{
+
+.navBtn {
+  height: 6rem;
+  width: 6rem;
+  background-color: var(--red);
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+
+/* Position and sizing of burger button */
+/* .bm-burger-button {
+  position: absolute;
+  width: 36px;
+  height: 30px;
+  right: 36px;
+  top: 33px;
+  transform: scale(.9);
+}
+.hide-menu{
+  display: none;
+}
+.bm-overlay {
+  display: none;
+}
+.bm-menu {
+  background: var(--gray);
+  padding: 2.5rem 1.5rem 0;
+  font-size: 1.15rem;
+}
+.bm-burger-button {
+  display: none;
+}
+
+
+/* Individual itrem */
+/* .bm-itrem {
+  display: block;
+  /* Our sidebar itrem styling */
+  /* text-decoration: none;
+  margin-bottom: 30px;
+  color: var(--gold);
+  transition: color 0.2s;
+  font-size: 25px;
+} */ 
+
+/* #page-wrap {
+  overflow: auto;
+}
+
+.bm-menu-wrap {
+  padding: none;
+  top: 0;
+}
+.bm-itrem:focus {
+  outline: none;
+} */
+/* Color/shape of burger icon bars */
+/* .bm-burger-bars {
+  background: var(--gray);
+} */
+
+/* Position and sizing of clickable cross button */
+/* .bm-cross-button {
+  padding-bottom: 4px;
+  padding-right: 7px;
+  transform: scale(2);
+} */
+
+/* Color/shape of close button cross */
+/* .bm-cross {
+  top: 7px;
+  right: 7px;
+  background: var(--gold);
+} */
+
+/* End Nav styles */
+/* Wrapper for itrem list */
+/* .bm-itrem-list {
+  color: var(--gray);
   text-align: center;
-  grid-column: inherit;
-  
+  padding-top: 35px;
+} */
+
+/* Styling of overlay */
+/* .bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+} */ */
+
+/* END Sidebar Styles
+ ------------------------------*/
+/* Begin Header Styles */
+
+.banner {
+  margin-top: -3rem;
+  background-color: rgb(131, 104, 230);
+}
+
+.titleDiv {
+  text-align: center;
+}
+
+.title {
+  color: var(--green);
+  font-weight: 900;
+  font-size: 3rem;
+  background-color: blue;
+  margin-bottom: -.5rem;
+  margin-top: -4.25%;
+}
+
+.subTitle {
+  color: var(--green);
+  font-weight: 600;
+  font-size: 2rem;
+  background-color: coral;
+}
+
+.quoteWrap {
+  margin-left: 28%;
+}
+
+.quote {
+  font-size: 1.5rrem;
+  width: 60%;
+  height:3rem;
+  margin-top:-2%;
+  text-align: center;
+  background-color: greenyellow;
+}
+
+.heroContainer {
+  width: 100%;
+}
+.hero{
+  width:100%;
+  height:18rem;
+  margin-top: -1rem;
 }
 /* End Header Styles */
+/* Begin Footer Styles */
+.footerWrap{
+  display:grid;
+  grid-tremplate-columns: 1fr 1fr 1fr;
+  grid-tremplate-rows: 6rem; 
+}
+.footerLogo{
+  height: 5rem;
+  background-color: brown;
+  margin-left: 33%;
+}
+
+.copyright{
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 13%;
+  margin-right: 20%;
+  margin-left: inherit;
+  background-color: teal;
+}
+
+.contactFooter{
+  margin-top: 5%;
+  margin-left: -19%;
+}
+/* End Footer Styles */
+
+
+
+
+
+/* * Responsive Styles */
+/* ******************************************* */
+/* Extra small device (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  /* BEGIN Navigation Styles
+ /* ------------------------------ */
+ 
+
+}
