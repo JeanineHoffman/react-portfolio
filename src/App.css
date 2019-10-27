@@ -68,3 +68,81 @@ body {
   
 }
 /* End Header Styles */
+/* Begin Header Styles */
+
+.banner {
+  margin-top: -3rem;
+  background-color: rgb(131, 104, 230);
+}
+
+.titleDiv {
+  text-align: center;
+}
+
+.title {
+  color: var(--green);
+  font-weight: 900;
+  font-size: 3rem;
+  background-color: blue;
+  margin-bottom: -.5rem;
+  margin-top: -4.25%;
+}
+
+.subTitle {
+  color: var(--green);
+  font-weight: 600;
+  font-size: 2rem;
+  background-color: coral;
+}
+
+.quoteWrap {
+  margin-left: 28%;
+}
+
+.quote {
+  font-size: 1.5rrem;
+  width: 60%;
+  height:3rem;
+  margin-top:-2%;
+  text-align: center;
+  background-color: greenyellow;
+}
+
+.heroContainer {
+  width: 100%;
+}
+.hero{
+  width:100%;
+  height:18rem;
+  margin-top: -1rem;
+}
+/* End Header Styles */
+/* Begin Footer Styles */
+.footerWrap{
+  display:grid;
+  grid-tremplate-columns: 1fr 1fr 1fr;
+  grid-tremplate-rows: 6rem; 
+}
+.footerLogo{
+  height: 5rem;
+  background-color: brown;
+  margin-left: 33%;
+}
+
+.copyright{
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 13%;
+  margin-right: 20%;
+  margin-left: inherit;
+  background-color: teal;
+}
+
+.contactFooter{
+  margin-top: 5%;
+  margin-left: -19%;
+}
+/* End Footer Styles */
+
+
+
