@@ -42,41 +42,38 @@ body {
 /* begin Nav styles */
 
 .navWrap {
-  display: grid;
-  grid-auto-columns:1fr 1fr ;
-  grid-auto-rows: 14em;
+  display: inline-flex;
+  flex-direction: row;
+  /* grid-auto-columns:1fr 1fr ;
+  grid-auto-rows: 14em; */
 }
 
 .logo {
-  height: 6rem;
+  height: 6em;
   background-color: aqua;
 }
 
 .navBar {
   background-color: purple;
-  margin-left: -5rem;
+  height:5em;
 }
 
 .navBtn {
   height: 6rem;
   width: 6rem;
   background-color: var(--red);
-  font-size: 1rem;
+  font-size: 1.3em;
   font-weight: 800;
 }
-/* .App{
-  display:grid;
-  grid-auto-columns: 1fr 1fr;
 
-} */
 /* END General Styles
  ------------------------------*/
 /* begin Nav styles */
 
 .navWrap {
   display: grid;
-  grid-auto-columns:1fr 1fr ;
-  grid-auto-rows: 14em;
+  grid-template-columns:1fr 1fr;
+  grid-auto-rows: 5em;
 }
 
 .logo {
@@ -183,10 +180,9 @@ body {
   grid-template-rows: 6rem; 
 }
 .footerLogo{
-  height: 5rem;
+  height: 4rem;
   background-color: brown;
-  margin-left: 33%;
-}
+  }
 
 .copyright{
   font-size: 1rem;
@@ -196,7 +192,9 @@ body {
   margin-left: inherit;
   background-color: teal;
 }
-
+.footerLink{
+  height:4em;
+}
 .contactFooter{
   margin-top: 5%;
   margin-left: -19%;

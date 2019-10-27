@@ -12,16 +12,16 @@ export default class Navigation extends Component {
         </div>
         <div className="navBar">
           <Link to='/'>
-            <button type="button" name="home">Home</button>
+            <button className="navBtn"type="button" name="home">Home</button>
           </Link>
           <Link to='/bio'>
-            <button type="button" name="bio">About</button>
+            <button className="navBtn" type="button" name="bio">About</button>
           </Link>
           <Link to='/projects'>
-            <button type="button" name="projects">Projects</button>
+            <button className="navBtn" type="button" name="projects">Projects</button>
           </Link>
           <Link to='/contact'>
-            <button type="button" name="contact">Contact</button>
+            <button className="navBtn" type="button" name="contact">Contact</button>
           </Link>
         </div >
       </div>

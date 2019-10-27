@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../Assets/Images/logo.png';
-
+import linkedin from '../Assets/Images/linkedin.jpeg';
+import github from '../Assets/Images/github.png';
+import email from '../Assets/Images/email.jpeg';
 
 export default class Footer extends Component {
   render() {
@@ -16,11 +18,11 @@ export default class Footer extends Component {
       </div>
       <div className="footerContact">
         <a href="mailto:jeaninehoffman42@gmail.com">
-          <img className="email" src="src/Assets/Images/email.jpeg" alt="email link" target="_blank" rel="noopener noreferrer"/></a>
+          <img className="footerLink" src={email} alt="email link" target="_blank" rel="noopener noreferrer"/></a>
         <a href="https://github.com/JeanineHoffman">
-          <img class="github" src="../Assets/Images/github.png" alt="Github link" target="_blank" rel="noopener noreferrer" /></a>
+          <img class="footerLink" src={github} alt="Github link" target="_blank" rel="noopener noreferrer" /></a>
         <a href="https://www.linkedin.com/in/jeanine-hoffman42">
-          <img class="linkedin" src="src/Assets/Images/linkedin.jpegsrc/Assets/Images/linkedin.jpeg" alt="LinkedIn link" target="_blank" rel="noopener noreferrer" /></a>
+          <img class="footerLink" src={linkedin} alt="LinkedIn link" target="_blank" rel="noopener noreferrer" /></a>
       </div>
       </div>
     );
