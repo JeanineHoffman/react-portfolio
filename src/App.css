@@ -6,9 +6,10 @@
  ------------------------------*/
 
 /* Color Variables */
+
 :root {
   --green: #0f651d;
-  --background: #f0e8cc;
+  --background: #d5c797;
   --gold: #ffc261;
   --gray: #504d4d;
   --white: #fff;
@@ -29,19 +30,74 @@ main {
 }
 
 body {
-  font-family: "Barlow", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Barlow", -apple-systrem, BlinkMacSystremFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color:#f0e8cc;
+  background-color:var(--background);
 }
 
-/* .App{
-  display:grid;
-  grid-auto-columns: 1fr 1fr;
-
-} */
 /* END General Styles
  ------------------------------*/
+
+/* begin Nav styles */
+
+.navWrap {
+  display: inline-flex;
+  flex-direction: row;
+  /* grid-auto-columns:1fr 1fr ;
+  grid-auto-rows: 14em; */
+}
+
+.logo {
+  height: 6em;
+  background-color: aqua;
+}
+
+.navBar {
+  background-color: purple;
+  height:5em;
+}
+
+.navBtn {
+  height: 6rem;
+  width: 6rem;
+  background-color: var(--red);
+  font-size: 1.3em;
+  font-weight: 800;
+}
+
+/* END General Styles
+ ------------------------------*/
+/* begin Nav styles */
+
+.navWrap {
+  display: grid;
+  grid-template-columns:1fr 1fr;
+  grid-auto-rows: 5em;
+}
+
+.logo {
+  height: 6rem;
+  background-color: aqua;
+}
+
+.navBar {
+  background-color: purple;
+  margin-left: -5rem;
+}
+
+.navBtn {
+  height: 6rem;
+  width: 6rem;
+  background-color: var(--red);
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+
+
+
+
 /* Begin Header Styles */
 .banner {
   display: grid;
@@ -68,3 +124,82 @@ body {
   
 }
 /* End Header Styles */
+/* Begin Header Styles */
+
+.banner {
+  margin-top: -3rem;
+  background-color: rgb(131, 104, 230);
+}
+
+.titleDiv {
+  text-align: center;
+}
+
+.title {
+  color: var(--green);
+  font-weight: 900;
+  font-size: 3rem;
+  background-color: blue;
+  margin-bottom: -.5rem;
+  margin-top: -4.25%;
+}
+
+.subTitle {
+  color: var(--green);
+  font-weight: 600;
+  font-size: 2rem;
+  background-color: coral;
+}
+
+.quoteWrap {
+  margin-left: 28%;
+}
+
+.quote {
+  font-size: 1.5rrem;
+  width: 60%;
+  height:3rem;
+  margin-top:-2%;
+  text-align: center;
+  background-color: greenyellow;
+}
+
+.heroContainer {
+  width: 100%;
+}
+.hero{
+  width:100%;
+  height:18rem;
+  margin-top: -1rem;
+}
+/* End Header Styles */
+/* Begin Footer Styles */
+.footerWrap{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 6rem; 
+}
+.footerLogo{
+  height: 4rem;
+  background-color: brown;
+  }
+
+.copyright{
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 13%;
+  margin-right: 20%;
+  margin-left: inherit;
+  background-color: teal;
+}
+.footerLink{
+  height:4em;
+}
+.contactFooter{
+  margin-top: 5%;
+  margin-left: -19%;
+}
+/* End Footer Styles */
+
+
+

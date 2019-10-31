@@ -1,33 +1,30 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import bio from '../Assets/Images/bio.png';
-import Projects from '../Assets/Images/Projects.png';
-import Home from '../Assets/Images/Home.png';
-import Contact from '../Assets/Images/Contact.png';
-
-
-// import Bio from '../Assets/Images/bio.png';
-
+import logo from '../Assets/Images/logo.png';
 
 
 export default class Navigation extends Component {
   render() {
     return (
-      <div className="nav">
-        <Link to='/bio'>
-        <img src={bio} alt="link to biography section" />
-        </Link>
-        <Link to='/contact'>
-        <img src={Contact} alt="link to contact me section"/>
-  </Link>
-        <Link to='/projects'>
-        <img src={Projects} alt="link to projects section"/>
-  </Link>
-  <Link to='/'>
-        <img src={Home} alt="link to landing page view"/>
-  </Link>
-      </div >
-
+      <div className="navWrapper">
+        <div className="logo">
+          <img src={logo} className="logo" alt='logo-gold background with a douglas fir tree in black on the left and the initials JH on the right' />
+        </div>
+        <div className="navBar">
+          <Link to='/'>
+            <button className="navBtn"type="button" name="home">Home</button>
+          </Link>
+          <Link to='/bio'>
+            <button className="navBtn" type="button" name="bio">About</button>
+          </Link>
+          <Link to='/projects'>
+            <button className="navBtn" type="button" name="projects">Projects</button>
+          </Link>
+          <Link to='/contact'>
+            <button className="navBtn" type="button" name="contact">Contact</button>
+          </Link>
+        </div >
+      </div>
     );
   }
 }
