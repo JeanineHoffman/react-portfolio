@@ -20,9 +20,9 @@ export default class Footer extends Component {
         <a href="mailto:jeaninehoffman42@gmail.com">
           <img className="footerLink" src={email} alt="email link" target="_blank" rel="noopener noreferrer"/></a>
         <a href="https://github.com/JeanineHoffman">
-          <img class="footerLink" src={github} alt="Github link" target="_blank" rel="noopener noreferrer" /></a>
+          <img className="footerLink" src={github} alt="Github link" target="_blank" rel="noopener noreferrer" /></a>
         <a href="https://www.linkedin.com/in/jeanine-hoffman42">
-          <img class="footerLink" src={linkedin} alt="LinkedIn link" target="_blank" rel="noopener noreferrer" /></a>
+          <img className="footerLink" src={linkedin} alt="LinkedIn link" target="_blank" rel="noopener noreferrer" /></a>
       </div>
       </div>
     );

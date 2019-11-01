@@ -11,17 +11,15 @@ export default class Navigation extends Component {
           <img src={logo} className="logo" alt='logo-gold background with a douglas fir tree in black on the left and the initials JH on the right' />
         </div>
         <div className="navBar">
-          <Link to='/'>
-            <button className="navBtn"type="button" name="home">Home</button>
+          <Link to='/'
+            className="navBtn" name="home">Home
           </Link>
-          <Link to='/bio'>
-            <button className="navBtn" type="button" name="bio">About</button>
+          <Link to='/bio'
+          className="navBtn" name="bio">About
           </Link>
-          <Link to='/projects'>
-            <button className="navBtn" type="button" name="projects">Projects</button>
+          <Link to='/projects' className="navBtn" name="projects">Projects
           </Link>
-          <Link to='/contact'>
-            <button className="navBtn" type="button" name="contact">Contact</button>
+          <Link to='/contact' className="navBtn" name="contact">Contact
           </Link>
         </div >
       </div>
