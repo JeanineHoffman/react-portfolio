@@ -40,7 +40,9 @@ export default class App extends Component {
         component={Contact}
         />
           </Switch>
+         
           <Footer />
+          
           </div>
       );
   }

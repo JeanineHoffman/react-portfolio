@@ -9,7 +9,7 @@
 
 :root {
   --green: #0f651d;
-  --background: #d5c797;
+  --background: #e8e6b2;
   --gold: #ffc261;
   --gray: #504d4d;
   --white: rgb(211, 201, 201);
@@ -45,39 +45,55 @@ body {
 /* begin Nav styles */
 
 .navWrapper {
- display: grid;
- width: 40%;
- grid-template-columns:auto auto;
- grid-auto-rows: 5em;
- grid-column-gap: 50%;
+ display: flex;
+ flex-direction: row;
+ margin-top: 7%;
 } 
 
 .logo {
-  height: 10em;
-  margin-left:4%;
-  grid-column-start: 1;
-  grid-row-start:1;
-  margin-top:4%;
+  height: 7rem;
+  margin-left:4.5%;
+  /* grid-column-start: 1;
+  grid-row-start:1; */
 }
 
 .navBar {
-  height:7em;
-  grid-column-start: 2;
-  grid-row-start:1;
-  
-  margin-top: 4.3%;
-}
-
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 4em 4em;
+  grid-column-gap: 2.5%; 
+  margin-left: 2.5rem;
+ } 
 .navBtn {
-  height: 7em;
-  padding:2rem 1rem;
+  height: 3em;
+  width: 5em;
+  text-align: center;
+  padding-top: .8em;
   background-color: var(--red);
   color: var(--black);
-  font-size: 1.3em;
+  font-size: 1em;
   font-weight: 800;
   text-decoration: none;
+  border: 3px solid var(--background);
+  border-radius: 15px;
 }
-
+.home{
+  grid-column-start: 1;
+  grid-row-start: 1;
+}
+.bio{
+  grid-column-start: 2;
+  grid-row-start: 1;
+}
+.projects{
+  grid-column-start: 1;
+  grid-row-start: 2;
+}
+.contact{
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+/* End Nav styles */
 /* Begin Header Styles */
 
 .title{
@@ -116,30 +132,32 @@ body {
 .footerWrapper{
   display:grid;
   grid-template-columns: auto auto auto auto;
-  grid-template-rows: 6rem; 
+  grid-template-rows: 4rem 4rem; 
   background-color:var(--background);
  grid-column-gap:1rem;
- margin-top:10rem;
+ margin-top:6rem;
 }
 
 .logoFooter{
   height: 4rem;
-  grid-column-start: 2;
-
+  grid-column-start: 1;
+  grid-row-start: 1;
   }
 
 .copyright{
   font-size: 1.2rem;
   font-weight: 600;
-  grid-column-start: 3;
-  margin-top: 2em;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  margin-top: -.5em;
 }
+
 .footerLink{
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start:2;
   height:4em;
-}
-.footerLink{
-  grid-column-start: 4;
-  margin-top: 2.5rem;
 }
 /* End Footer Styles */
 /* Begin About Styles */
@@ -171,29 +189,119 @@ body {
 /* End Contact styles */
 /* Begin Project styles */
 
-.projWrapper{
-  display:grid;
-  grid-template-columns:auto auto;
- grid-auto-rows: auto auto auto;
- grid-row-gap:5%;
+.projTitle1{
+  font-size: 1.7rem;
+  margin-left: 26%;
 }
-
-
-
+.projTitle2{
+  font-size: 1.7rem;
+  margin-left: 17%;
+}
+.projTitle3{
+  font-size: 1.6rem;
+  margin-left: 2%;
+}
 .projimg{
   height:7rem;
   width:8rem;
-  grid-column-start: 1;
+  margin-left: 28%;
 }
-.proj1{
-  grid-row-start: 1;
+.proj1 {
+  width:85%;
+  line-height: 1.4;
+  text-align: justify;
+  margin: 0 auto;
+  padding-top: 1rem;
 }
 
 .proj2{
-  grid-row-start: 2;
+  width:85%;
+  line-height: 1.4;
+  text-align: justify;
+  margin: 0 auto;
+  padding-top: 1rem;
 }
 
 .proj3{
-  grid-row-start:3;
+  width:85%;
+  line-height: 1.4;
+  text-align: justify;
+  margin: 0 auto;
+  padding-top: 1rem;
 }
+.projWrapper{
+  display: grid;
+  width: 40%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 4em;
+  grid-column-gap: 2.5%; 
+  margin-left: 1.5rem;
+}
+.projBtnWrap2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 2.5%; 
+  margin-left: 1.7rem;
+}
+.project2btn{
+  height: 4em;
+  width: 5em;
+  text-align: center;
+  padding-top: 1em;
+  background-color: var(--red);
+  color: var(--black);
+  font-size: 1em;
+  font-weight: 800;
+  text-decoration: none;
+  border: 3px solid var(--background);
+  border-radius: 15px;
+  margin-top: 5%;
+}
+.projectbtn{
+  height: 5em;
+  width: 5em;
+  text-align: center;
+  padding-top: .8em;
+  background-color: var(--red);
+  color: var(--black);
+  font-size: 1em;
+  font-weight: 800;
+  text-decoration: none;
+  border: 3px solid var(--background);
+  border-radius: 15px;
+  margin-top: 5%;
+  margin-left: 2%;
+}
+
 /* End Project Styles */
+/* Begin media query styles */
+@media screen and (max-width: 360px){
+  /* .footerWrapper{
+    margin-top:100%;
+  } */
+  .logoFooter{
+    height: 2.4rem;
+    }
+    .footerLink{
+      height: 3rem;
+    }
+    .navBar {
+      grid-column-gap: 2%; 
+      margin-left: 2rem;
+     } 
+     .aboutTitle{
+      font-size: 2em;
+    }
+    .aboutText{
+      line-height: 1.5;
+      font-size: 1rem;
+      padding:.5em;
+    }
+    .links{
+      height:4rem;
+      margin-right: 20%;
+    }
+}
+
+
+/* End media query styles */
