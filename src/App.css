@@ -16,18 +16,15 @@
   --black: #000;
   --red: #b30a0a;
 }
-
 * {
   box-sizing: border-box;
 }
-
 html {
   scroll-behavior: smooth;
 }
 
-.App {
+.main {
   min-height: 100vh;
-  min-width: 100%;
 }
 
 body {
@@ -189,6 +186,16 @@ body {
 /* End Contact styles */
 /* Begin Project styles */
 
+.projWrapper{
+  display: grid;
+  /* width: 40%; */
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 4em;
+  grid-column-gap: 2.5%; 
+  margin-left: 1.5rem;
+  height: 90vh;
+}
+
 .projTitle1{
   font-size: 1.7rem;
   margin-left: 26%;
@@ -228,14 +235,6 @@ body {
   text-align: justify;
   margin: 0 auto;
   padding-top: 1rem;
-}
-.projWrapper{
-  display: grid;
-  width: 40%;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 4em;
-  grid-column-gap: 2.5%; 
-  margin-left: 1.5rem;
 }
 .projBtnWrap2{
   display: grid;
