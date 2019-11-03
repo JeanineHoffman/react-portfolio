@@ -14,7 +14,7 @@ export default class About extends Component {
           <p className="aboutText">
           Programming, especially with an eye towards making things accessible to all, is my current passion. Working with a variety of people in class has helped me find the things I'm good at doing and taught me that it is okay to not know the answer right away. The great thing about tech and me is that we both grow and change with time. Seems like I found my niche.</p>
           <br />
-          <p>My primary tech stack from Thinkful includes HTML, JS, CSS, React, Node.js, Express, PostgreSQL. I'm looking forward to expanding on that knowledge and learning more languages.</p>
+          <p className="aboutText">My primary tech stack from Thinkful includes HTML, JS, CSS, React, Node.js, Express, PostgreSQL. I'm looking forward to expanding on that knowledge and learning more languages.</p>
         </article>
       </div>
     );
