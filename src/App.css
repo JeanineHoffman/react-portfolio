@@ -69,6 +69,11 @@ body {
   border: 3px solid var(--background);
   border-radius: 15px;
 }
+.navBtn:hover,
+.navBtn:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--black);
+  transform: translateY(-0.25em);
+}
 .home{
   grid-column-start: 1;
   grid-row-start: 1;
@@ -126,8 +131,8 @@ body {
   grid-template-columns: auto auto auto auto;
   grid-template-rows: 4rem 4rem; 
   background-color:var(--background);
- grid-column-gap:1rem;
- margin-top:100%;
+  grid-column-gap:1rem;
+  margin-top:4rem;
 }
 
 .logoFooter{
@@ -250,6 +255,11 @@ body {
   border-radius: 10px;
   margin-top: 5%;
 }
+.trybtn:hover,
+.trybtn:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--black);
+  transform: translateY(-0.25em);
+}
 .projectbtn{
   height: 4em;
   width: 5em;
@@ -264,6 +274,11 @@ body {
   border-radius: 10px;
   margin-top: 5%;
   margin-left: 2%;
+}
+.projectbtn:hover,
+.projectbtn:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--black);
+  transform: translateY(-0.25em);
 }
 
 /* End Project Styles */
