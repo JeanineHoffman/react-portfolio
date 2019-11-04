@@ -23,12 +23,9 @@ html {
   scroll-behavior: smooth;
 }
 
-.main {
-  min-height: 100vh;
-}
 
 body {
-  font-family: "Barlow", -apple-systrem, BlinkMacSystremFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Barlow", BlinkMacSystremFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color:var(--background);
@@ -50,8 +47,6 @@ body {
 .logo {
   height: 7rem;
   margin-left:4.5%;
-  /* grid-column-start: 1;
-  grid-row-start:1; */
 }
 
 .navBar {
@@ -132,7 +127,7 @@ body {
   grid-template-rows: 4rem 4rem; 
   background-color:var(--background);
  grid-column-gap:1rem;
- margin-top:6rem;
+ margin-top:100%;
 }
 
 .logoFooter{
@@ -152,7 +147,7 @@ body {
 
 .footerLink{
   grid-column-start: 2;
-  grid-column-end: 4;
+  grid-column-end: 3;
   grid-row-start:2;
   height:4em;
 }
@@ -187,13 +182,7 @@ body {
 /* Begin Project styles */
 
 .projWrapper{
-  display: grid;
-  /* width: 40%; */
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 4em;
-  grid-column-gap: 2.5%; 
-  margin-left: 1.5rem;
-  height: 90vh;
+  margin-left: .4rem;
 }
 
 .projTitle1{
@@ -236,13 +225,18 @@ body {
   margin: 0 auto;
   padding-top: 1rem;
 }
+.btnWrap{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: .25%;
+}
 .projBtnWrap2{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-column-gap: 2.5%; 
-  margin-left: 1.7rem;
+  grid-column-gap: 1rem; 
+  margin-left: 3rem;
 }
-.project2btn{
+.trybtn{
   height: 4em;
   width: 5em;
   text-align: center;
@@ -253,21 +247,21 @@ body {
   font-weight: 800;
   text-decoration: none;
   border: 3px solid var(--background);
-  border-radius: 15px;
+  border-radius: 10px;
   margin-top: 5%;
 }
 .projectbtn{
-  height: 5em;
+  height: 4em;
   width: 5em;
   text-align: center;
-  padding-top: .8em;
+  padding-top: 1.3em;
   background-color: var(--red);
   color: var(--black);
   font-size: 1em;
   font-weight: 800;
   text-decoration: none;
   border: 3px solid var(--background);
-  border-radius: 15px;
+  border-radius: 10px;
   margin-top: 5%;
   margin-left: 2%;
 }

@@ -17,7 +17,6 @@ export default class App extends Component {
       <div className = "App" >
       <Navigation />
       <Header />
-      <main className="main">
       <Switch>
         <Route
           exact
@@ -41,7 +40,7 @@ export default class App extends Component {
         component={Contact}
         />
           </Switch>
-         </main>
+         
           <Footer />
           
           </div>
