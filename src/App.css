@@ -387,4 +387,75 @@ body {
   margin-left: 30%;
 }
 }
+
+@media screen and (max-width: 850px){
+  .navBar {
+    grid-column-gap: 3%; 
+    margin-left: 26rem;
+   } 
+   .AdamsQuote{
+    width: 80%;
+  }
+  .linksBar{
+    display: inline-flex;
+    margin-left:33%;
+  }
+  .links{
+    height:4rem;
+    margin-left: 40%;
+  }
+  .logoFooter{
+    height: 7rem;
+    margin-left:5%;
+    }
+    .footerLink{
+      height: 3rem;
+      margin-left: 8%;
+    }
+    .footerContact{
+      display: inline-flex;
+      margin-top: 12%;
+      margin-left: 70%;
+    }
+    .copyright{
+      font-size: 1.2rem;
+      margin-left: 10%;
+    }
+    .aboutText{
+      line-height: 1.5;
+      font-size: 1.6rem;
+      padding:.5em;
+      width: 90%;
+    }
+    .btnWrap{
+      margin-left: 10%;
+    }
+    .projBtnWrap2{
+      margin-left: 20%;
+    }
+    .projectbtn{
+      margin-left: 4%;
+    }
+    .trybtn{
+      margin-left: 20%;
+    }
+    .projTitle1{
+      font-size: 2rem;
+      margin-left: 35%;
+    }
+    .projTitle2{
+      font-size: 2rem;
+      margin-left: 30%;
+    }
+    .projTitle3{
+      font-size: 2rem;
+      margin-left: 22%;
+}
+    .projimg{
+      height:10rem;
+      width:11rem;
+      margin-left: 36%;
+}
+}
+
 /* End media query styles */
