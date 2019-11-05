@@ -10,13 +10,16 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 
 
+
 export default class App extends Component {
   render(){
 
     return(
-      <div className = "App" >
+      <div className="App" >
+     
       <Navigation />
       <Header />
+      
       <Switch>
         <Route
           exact
@@ -40,10 +43,10 @@ export default class App extends Component {
         component={Contact}
         />
           </Switch>
-         
           <Footer />
           
           </div>
+          
       );
   }
 }
