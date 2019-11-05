@@ -289,14 +289,19 @@ body {
   } */
   .logoFooter{
     height: 2.4rem;
+    margin-left: 10%;
     }
     .footerLink{
       height: 3rem;
+      margin-left: 6%;
     }
     .navBar {
       grid-column-gap: 2%; 
       margin-left: 2rem;
      } 
+     .AdamsQuote{
+       width: 80%;
+     }
      .aboutTitle{
       font-size: 2em;
     }
@@ -304,10 +309,22 @@ body {
       line-height: 1.5;
       font-size: 1rem;
       padding:.5em;
+      width: 85%;
     }
     .links{
       height:4rem;
       margin-right: 20%;
+    }
+    .projectbtn{
+      margin-left: 4%;
+    }
+    .trybtn{
+      margin-left: 12%;
+    }
+    .linksBar{
+      display: inline-flex;
+      margin-left:25%;
+      width: 80%;
     }
 }
 
