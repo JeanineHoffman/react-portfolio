@@ -283,7 +283,7 @@ body {
 
 /* End Project Styles */
 /* Begin media query styles */
-@media screen and (max-width: 360px){
+@media screen and (max-width: 375px){
   /* .footerWrapper{
     margin-top:100%;
   } */
@@ -326,7 +326,65 @@ body {
       margin-left:25%;
       width: 80%;
     }
+    
 }
 
-
+@media screen and (max-width: 450px){
+  .navBar {
+    grid-column-gap: 3%; 
+    margin-left: 5rem;
+   } 
+   .AdamsQuote{
+    width: 85%;
+  }
+  .linksBar{
+    display: inline-flex;
+    margin-left:28%;
+  }
+  .links{
+    height:4rem;
+    margin-left:0;
+  }
+  .logoFooter{
+    height: 2.4rem;
+    margin-left: 20%;
+    }
+    .footerLink{
+      height: 3rem;
+      margin-left: 8%;
+    }
+    .copyright{
+      font-size: 1.2rem;
+      margin-left: 8%;
+    }
+    .aboutText{
+      line-height: 1.5;
+      font-size: 1.2rem;
+      padding:.5em;
+      width: 85%;
+    }
+    .projectbtn{
+      margin-left: 6%;
+    }
+    .trybtn{
+      margin-left: 16%;
+    }
+    .projTitle1{
+      font-size: 1.75rem;
+      margin-left: 29%;
+    }
+    .projTitle2{
+      font-size: 1.75rem;
+      margin-left: 20%;
+    }
+    .projTitle3{
+      font-size: 1.75rem;
+      margin-left: 8%;
+}
+.projimg{
+  height:9rem;
+  width:10rem;
+  margin-left: 30%;
+}
+}
 /* End media query styles */
