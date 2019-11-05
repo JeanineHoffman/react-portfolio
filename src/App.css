@@ -461,7 +461,7 @@ body {
 @media screen and (max-width: 1024px){
   .navBar {
     grid-column-gap: 3%; 
-    margin-left: 65%;
+    margin-left: 75%;
    } 
    .AdamsQuote{
     width: 80%;
@@ -484,12 +484,91 @@ body {
     }
     .footerContact{
       display: inline-flex;
-      margin-top: 10%;
+      margin-top: -10%;
       margin-left: 70%;
     }
     .copyright{
       font-size: 1.2rem;
       margin-left: 10%;
+    }
+    .aboutText{
+      line-height: 1.5;
+      font-size: 1.7rem;
+      padding:.5em;
+      width: 90%;
+    }
+    .btnWrap{
+      margin-left: 10%;
+    }
+    .projBtnWrap2{
+      margin-left: 20%;
+    }
+    .projectbtn{
+      margin-left: 4%;
+    }
+    .trybtn{
+      margin-left: 20%;
+    }
+    .projTitle1{
+      font-size: 2rem;
+      margin-left: 40%;
+    }
+    .projTitle2{
+      font-size: 2rem;
+      margin-left: 37%;
+    }
+    .projTitle3{
+      font-size: 2rem;
+      margin-left: 33%;
+}
+    .projimg{
+      height:12rem;
+      width:13rem;
+      margin-left: 40%;
+}
+  .proj1{
+    font-size: 1.6rem;
+  }
+  .proj2{
+    font-size: 1.6rem;
+  }
+
+  .proj3{
+    font-size: 1.6rem;
+  }
+}
+@media screen and (min-width: 1024px){
+  .navBar {
+    grid-column-gap: 3%; 
+    margin-left: 65%;
+   } 
+   .AdamsQuote{
+    width: 60%;
+  }
+  .linksBar{
+    display: inline-flex;
+    margin-left:43%;
+  }
+  .links{
+    height:4rem;
+    margin-left: 40%;
+  }
+  .logoFooter{
+    height: 7rem;
+    margin-left:40%;
+    }
+  .footerLink{
+    height: 3rem;
+    margin-left: 8%;
+    }
+    .footerContact{
+      display: inline-flex;
+      margin-top: 5.5%;
+      margin-left: 72%;
+    }
+    .copyright{
+      font-size: 1.2rem;
+      margin-left: 20%;
     }
     .aboutText{
       line-height: 1.5;
