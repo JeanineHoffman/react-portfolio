@@ -8,7 +8,7 @@ export default class Footer extends Component {
       <div className='footerWrapper'>
         <div className="logoFooter">
           <Link
-            to='/'><img src={logo} className="logo" alt='logo-gold background with a douglas fir tree in black on the left and the initials JH on the right' /></Link>
+            to='/'><img src={logo} className="logoFooterimg" alt='logo-gold background with a douglas fir tree in black on the left and the initials JH on the right' /></Link>
         </div>
         <div className="copyright">
           <p >Jeanine Hoffman © 2019</p>

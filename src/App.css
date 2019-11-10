@@ -36,7 +36,7 @@ body {
 
 /* END General Styles
  ------------------------------*/
-
+/* styling for 320px */
 /* begin Nav styles */
 
 .navWrapper {
@@ -48,7 +48,7 @@ body {
 .logo {
   height: 7rem;
   margin-left: 5%;
-  margin-right: 15%;
+  margin-right: 9%;
 }
 
 .navBar {
@@ -121,7 +121,7 @@ body {
   width: 85%;
   margin: 0 auto;
   background-color: var(--green);
-  font-size: 1.25rem;
+  font-size: 1rem;
   color: var(--gold);
   text-align: center;
 }
@@ -133,7 +133,7 @@ body {
 .hero {
   width: 100vw;
   height: 12rem;
-  margin-top: -1rem;
+  margin-top: -.5rem;
 }
 
 /* End Header Styles */
@@ -154,18 +154,20 @@ body {
 .logoFooter {
   display: flex;
   height: 1.5rem;
-  margin-left: 13%;
+  margin-left: 18%;
   /* grid-column-start: 1;
   grid-row-start: 1; */
 }
-
+.logoFooterimg{
+  height: 3rem;
+  margin-left: 5%;
+}
 .copyright {
   display: flex;
   flex-direction: row;
   font-size: 1rem;
   font-weight: 600;
   margin-left: 6%;
-  margin-top: 8%;
   /* grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 2; */
@@ -214,28 +216,28 @@ body {
 /* Begin Project styles */
 
 .projWrapper {
-  margin-left: .4rem;
+  width: 100vw;
 }
 
 .projTitle1 {
-  font-size: 1.7rem;
-  margin-left: 26%;
+  font-size: 1.6rem;
+  text-align: left;
 }
 
 .projTitle2 {
-  font-size: 1.7rem;
-  margin-left: 17%;
+  font-size: 1.6rem;
+  text-align: left;
 }
 
 .projTitle3 {
   font-size: 1.6rem;
-  margin-left: 2%;
+  text-align: center;
 }
 
 .projimg {
   height: 7rem;
   width: 8rem;
-  margin-left: 28%;
+  align-self: center;
 }
 
 .proj1 {
