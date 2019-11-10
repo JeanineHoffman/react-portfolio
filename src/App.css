@@ -36,7 +36,9 @@ body {
 
 /* END General Styles
  ------------------------------*/
+
 /* styling for 320px */
+
 /* begin Nav styles */
 
 .navWrapper {
@@ -158,10 +160,12 @@ body {
   /* grid-column-start: 1;
   grid-row-start: 1; */
 }
-.logoFooterimg{
+
+.logoFooterimg {
   height: 3rem;
   margin-left: 5%;
 }
+
 .copyright {
   display: flex;
   flex-direction: row;
@@ -322,32 +326,39 @@ body {
 
 /* Begin media query styles */
 
-@media screen and (min-width: 411px), (max-width: 414px) {
-  /* .logo{
-    margin-right: 15%;
-  } */
-  /* .navBar {
-    margin-left: 45%;
-  } */
+@media screen and (min-width: 411px) {
+
+  .navBar {
+    margin-left: 15%;
+  }
   .projTitle1 {
-    margin-left:28%;
+    text-align: center;
   }
   .projTitle2 {
-    margin-left:22%;
+    text-align: center;
   }
   .projTitle3 {
-    margin-left: 10%;
+    text-align: center;
   }
   .projimg {
     height: 9rem;
     width: 10rem;
     margin-left: 30%;
   }
-  .btnWrap{
+  .btnWrap {
     margin-left: 10%;
   }
-  .projBtnWrap2{
+  .projBtnWrap2 {
     margin-left: 20%;
+  }
+  .footerWrapper {
+    margin-left: 15%;
+    margin-top: 4rem;
+  }
+  .logoFooter {
+    display: flex;
+    height: 1.75rem;
+    margin-left: 18%;
   }
 }
 
