@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../Assets/Images/logo.png';
-import linkedin from '../Assets/Images/linkedin.jpeg';
-import github from '../Assets/Images/github.png';
-import email from '../Assets/Images/email.jpeg';
 
 export default class Footer extends Component {
   render() {
@@ -16,7 +13,7 @@ export default class Footer extends Component {
         <div className="copyright">
           <p >Jeanine Hoffman © 2019</p>
         </div>
-        <div className="footerContact">
+        {/* <div className="footerContact">
           <a href="mailto:jeaninehoffman42@gmail.com" target="_blank" rel="noopener noreferrer">
 
             <img className="footerLink" src={email} alt="email link" /></a>
@@ -26,7 +23,7 @@ export default class Footer extends Component {
             
           <a href="https://www.linkedin.com/in/jeanine-hoffman42" target="_blank" rel="noopener noreferrer">
             <img className="footerLink" src={linkedin} alt="LinkedIn link" /></a>
-        </div>
+        </div> */}
       </div>
     );
   }
