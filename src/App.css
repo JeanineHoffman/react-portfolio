@@ -58,7 +58,6 @@ body {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 4em 4em;
   grid-column-gap: 2.5%;
-  /* margin-left: 1.5rem; */
 }
 
 .navBtn {
@@ -327,7 +326,6 @@ body {
 /* Begin media query styles */
 
 @media screen and (min-width: 411px) {
-
   .navBar {
     margin-left: 15%;
   }
@@ -362,134 +360,71 @@ body {
   }
 }
 
-/* @media screen and (max-width: 450px){
+@media screen and (max-width: 768px) {
+  
   .navBar {
-    grid-column-gap: 3%; 
-    margin-left: 5rem;
-   } 
-   .AdamsQuote{
-    width: 85%;
+    margin-left: 35%;
   }
-  .linksBar{
-    display: inline-flex;
-    margin-left:28%;
-  }
-  .links{
-    height:4rem;
-    margin-left:0;
-  }
-  .logoFooter{
-    height: 2.4rem;
-    margin-left: 20%;
-    }
-    .footerLink{
-      height: 3rem;
-      margin-left: 8%;
-    }
-    .copyright{
-      font-size: 1.2rem;
-      margin-left: 8%;
-    }
-    .aboutText{
-      line-height: 1.5;
-      font-size: 1.2rem;
-      padding:.5em;
-      width: 85%;
-    }
-    .projectbtn{
-      margin-left: 6%;
-    }
-    .trybtn{
-      margin-left: 16%;
-    }
-    .projTitle1{
-      font-size: 1.75rem;
-      margin-left: 29%;
-    }
-    .projTitle2{
-      font-size: 1.75rem;
-      margin-left: 20%;
-    }
-    .projTitle3{
-      font-size: 1.75rem;
-      margin-left: 8%;
-}
-.projimg{
-  height:9rem;
-  width:10rem;
-  margin-left: 30%;
-}
-} */
-
-/* @media screen and (max-width: 850px){
-  .navBar {
-    grid-column-gap: 3%; 
-    margin-left: 26rem;
-   } 
-   .AdamsQuote{
-    width: 80%;
+  .AdamsQuote {
+    font-size: 1.5rem;
+    width: 75%;
   }
   .linksBar{
     display: inline-flex;
     margin-left:33%;
+    
   }
   .links{
     height:4rem;
     margin-left: 40%;
   }
-  .logoFooter{
-    height: 7rem;
-    margin-left:5%;
-    }
-    .footerLink{
-      height: 3rem;
-      margin-left: 8%;
-    }
-    .footerContact{
-      display: inline-flex;
-      margin-top: 12%;
-      margin-left: 70%;
-    }
-    .copyright{
-      font-size: 1.2rem;
-      margin-left: 10%;
-    }
-    .aboutText{
-      line-height: 1.5;
-      font-size: 1.6rem;
-      padding:.5em;
-      width: 90%;
-    }
-    .btnWrap{
-      margin-left: 10%;
-    }
-    .projBtnWrap2{
-      margin-left: 20%;
-    }
-    .projectbtn{
-      margin-left: 4%;
-    }
-    .trybtn{
-      margin-left: 20%;
-    }
-    .projTitle1{
-      font-size: 2rem;
-      margin-left: 35%;
-    }
-    .projTitle2{
-      font-size: 2rem;
-      margin-left: 30%;
-    }
-    .projTitle3{
-      font-size: 2rem;
-      margin-left: 22%;
+  .footerWrapper {
+    width: 80%;
+  }
+  .logoFooterimg {
+    height: 4rem;
+    margin-top: 50%;
+  }
+  .copyright {
+    font-size: 1.2rem;
+    margin-top: 9.5%;
+  }
+  .aboutText {
+    line-height: 1.5;
+    font-size: 1.6rem;
+    padding: .5em;
+    width: 90%;
+  }
+  .btnWrap {
+    margin-left: 10%;
+  }
+  .projBtnWrap2 {
+    margin-left: 20%;
+  }
+  .projectbtn {
+    margin-left: 4%;
+  }
+  .trybtn {
+    margin-left: 20%;
+  }
+  .projTitle1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .projTitle2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .projTitle3 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .projimg {
+    height: 10rem;
+    width: 11rem;
+    margin-left: 36%;
+  }
 }
-    .projimg{
-      height:10rem;
-      width:11rem;
-      margin-left: 36%;
-}
-} */
 
 /* @media screen and (max-width: 1024px){
   .navBar {
