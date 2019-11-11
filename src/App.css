@@ -144,11 +144,7 @@ body {
 .footerWrapper {
   display: inline-flex;
   flex-direction: row;
-  /* display:grid;
-  grid-template-columns: auto auto auto auto;
-  grid-template-rows: 4rem 4rem;  */
   background-color: var(--background);
-  /* grid-column-gap:1rem; */
   margin-top: 4rem;
 }
 
@@ -156,8 +152,6 @@ body {
   display: flex;
   height: 1.5rem;
   margin-left: 18%;
-  /* grid-column-start: 1;
-  grid-row-start: 1; */
 }
 
 .logoFooterimg {
@@ -171,11 +165,7 @@ body {
   font-size: 1rem;
   font-weight: 600;
   margin-left: 6%;
-  /* grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 2; */
-  /* margin-top: -.5em; */
-}
+  }
 
 /* End Footer Styles */
 
@@ -361,7 +351,6 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-  
   .navBar {
     margin-left: 35%;
   }
@@ -369,13 +358,12 @@ body {
     font-size: 1.5rem;
     width: 75%;
   }
-  .linksBar{
+  .linksBar {
     display: inline-flex;
-    margin-left:33%;
-    
+    margin-left: 33%;
   }
-  .links{
-    height:4rem;
+  .links {
+    height: 4rem;
     margin-left: 40%;
   }
   .footerWrapper {
@@ -426,23 +414,21 @@ body {
   }
 }
 
-
-
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1024px) {
   .navBar {
-    grid-column-gap: 3%; 
+    grid-column-gap: 3%;
     margin-left: 45%;
-   } 
-   .AdamsQuote{
+  }
+  .AdamsQuote {
     width: 70%;
     font-size: 2rem;
   }
-  .linksBar{
+  .linksBar {
     display: inline-flex;
-    margin-left:38%;
+    margin-left: 38%;
   }
-  .links{
-    height:4rem;
+  .links {
+    height: 4rem;
     margin-left: 40%;
   }
   .footerWrapper {
@@ -456,131 +442,143 @@ body {
     font-size: 1.2rem;
     margin-top: 8%;
   }
-    .aboutText{
-      line-height: 1.5;
-      font-size: 1.7rem;
-      padding:.5em;
-      width: 90%;
-    }
-    .btnWrap{
-      margin-left: 10%;
-    }
-    .projBtnWrap2{
-      margin-left: 20%;
-    }
-    .projectbtn{
-      margin-left: 4%;
-    }
-    .trybtn{
-      margin-left: 18%;
-    }
-    .projTitle1{
-      font-size: 2.4rem;
-      text-align: center;
-    }
-    .projTitle2{
-      font-size: 2.4rem;
-      text-align: center;
-    }
-    .projTitle3{
-      font-size: 2.4rem;
-      text-align: center;
-}
-    .projimg{
-      height:12rem;
-      width:13rem;
-      margin-left: 40%;
-}
-  .proj1{
-    font-size: 1.8rem;
+  .aboutText {
+    line-height: 1.5;
+    font-size: 1.7rem;
+    padding: .5em;
+    width: 90%;
   }
-  .proj2{
-    font-size: 1.8rem;
+  .btnWrap {
+    margin-left: 10%;
   }
-
-  .proj3{
-    font-size: 1.8rem;
+  .projBtnWrap2 {
+    margin-left: 20%;
   }
-}
-
-/* @media screen and (min-width: 1024px){
-  .navBar {
-    grid-column-gap: 3%; 
-    margin-left: 65%;
-   } 
-   .AdamsQuote{
-    width: 60%;
+  .projectbtn {
+    margin-left: 4%;
   }
-  .linksBar{
-    display: inline-flex;
-    margin-left:43%;
+  .trybtn {
+    margin-left: 18%;
   }
-  .links{
-    height:4rem;
+  .projTitle1 {
+    font-size: 2.4rem;
+    text-align: center;
+  }
+  .projTitle2 {
+    font-size: 2.4rem;
+    text-align: center;
+  }
+  .projTitle3 {
+    font-size: 2.4rem;
+    text-align: center;
+  }
+  .projimg {
+    height: 12rem;
+    width: 13rem;
     margin-left: 40%;
   }
-  .logoFooter{
-    height: 7rem;
-    margin-left:40%;
-    }
-  .footerLink{
-    height: 3rem;
-    margin-left: 8%;
-    }
-    .footerContact{
-      display: inline-flex;
-      margin-top: 5.5%;
-      margin-left: 72%;
-    }
-    .copyright{
-      font-size: 1.2rem;
-      margin-left: 20%;
-    }
-    .aboutText{
-      line-height: 1.5;
-      font-size: 1.7rem;
-      padding:.5em;
-      width: 90%;
-    }
-    .btnWrap{
-      margin-left: 10%;
-    }
-    .projBtnWrap2{
-      margin-left: 20%;
-    }
-    .projectbtn{
-      margin-left: 4%;
-    }
-    .trybtn{
-      margin-left: 20%;
-    }
-    .projTitle1{
-      font-size: 2rem;
-      margin-left: 40%;
-    }
-    .projTitle2{
-      font-size: 2rem;
-      margin-left: 37%;
-    }
-    .projTitle3{
-      font-size: 2rem;
-      margin-left: 33%;
-}
-    .projimg{
-      height:12rem;
-      width:13rem;
-      margin-left: 40%;
-}
-  .proj1{
-    font-size: 1.6rem;
+  .proj1 {
+    font-size: 1.8rem;
   }
-  .proj2{
-    font-size: 1.6rem;
+  .proj2 {
+    font-size: 1.8rem;
   }
+  .proj3 {
+    font-size: 1.8rem;
+  }
+}
 
-  .proj3{
-    font-size: 1.6rem;
+@media screen and (min-width: 1040px) {
+  .logo {
+    height: 15rem;
+    margin-left: 5%;
+    margin-right: 9%;
   }
-} */
+  .navBar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 8.5em;
+    grid-column-gap: 2.5%;
+  }
+  .navBtn {
+    height: 5em;
+    width: 7em;
+    padding-top: 2rem;
+    font-size: 1.4em;
+  }
+  .title {
+    font-size: 4.5rem;
+  }
+  .subTitle {
+    font-size: 3.25rem;
+    margin-top: -.75em;
+  }
+  .AdamsQuote {
+    width: 65%;
+    font-size: 3rem;
+  }
+  .hero {
+    margin: 0 auto;
+    height: 20rem;
+  }
+  .footerWrapper {
+    margin-top: 8rem;
+  }
+  
+  .logoFooterimg {
+    height: 6rem;
+    margin-left: 5%;
+  }
+  
+  .copyright {
+    font-size: 2rem;
+    margin-top: 6.5%;
+    margin-left: 6%;
+    }
+    .linksBar {
+      margin-left: 33%;
+      align-content: center;
+    }
+    .links {
+      height: 8rem;
+     }
+     .projTitle1 {
+      font-size: 2rem;
+      text-align: center;
+    }
+    
+    .projTitle2 {
+      font-size: 2rem;
+      text-align: center;
+    }
+    
+    .projTitle3 {
+      font-size: 2rem;
+      text-align: center;
+    }
+     .projimg {
+      height: 10rem;
+      width: 11rem;
+      margin-left: 44%;
+    }
+    .trybtn {
+      height: 3em;
+      width: 5em;
+      padding-top: 1em;
+      font-size: 2em;
+      margin-top: 5%;
+    }
+     
+    .projectbtn {
+      height: 3em;
+      width: 5em;
+      padding-top: 1em;
+      font-size: 2em;
+      margin-top: 5%;
+      margin-left: 2%;
+    }
+    
+    
+}
 
 /* End media query styles */

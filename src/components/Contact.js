@@ -8,7 +8,7 @@ export default class Contact extends Component {
   render() {
     return (
       <section className="contactSection" aria-label="contact section"  >
-        <h2 className="contactTitle">Find me:</h2>
+        
         <div className="linksBar">
         <a href="mailto:jeaninehoffman42@gmail.com" target="_blank" rel="noopener noreferrer">
           <img className="links" src={email} alt="email link" /></a>
