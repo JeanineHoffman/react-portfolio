@@ -426,13 +426,16 @@ body {
   }
 }
 
-/* @media screen and (max-width: 1024px){
+
+
+@media screen and (min-width: 1024px){
   .navBar {
     grid-column-gap: 3%; 
-    margin-left: 75%;
+    margin-left: 45%;
    } 
    .AdamsQuote{
-    width: 80%;
+    width: 70%;
+    font-size: 2rem;
   }
   .linksBar{
     display: inline-flex;
@@ -442,23 +445,17 @@ body {
     height:4rem;
     margin-left: 40%;
   }
-  .logoFooter{
-    height: 7rem;
-    margin-left:15%;
-    }
-  .footerLink{
-    height: 3rem;
-    margin-left: 8%;
-    }
-    .footerContact{
-      display: inline-flex;
-      margin-top: -10%;
-      margin-left: 70%;
-    }
-    .copyright{
-      font-size: 1.2rem;
-      margin-left: 10%;
-    }
+  .footerWrapper {
+    width: 80%;
+  }
+  .logoFooterimg {
+    height: 4rem;
+    margin-top: 60%;
+  }
+  .copyright {
+    font-size: 1.2rem;
+    margin-top: 8%;
+  }
     .aboutText{
       line-height: 1.5;
       font-size: 1.7rem;
@@ -475,19 +472,19 @@ body {
       margin-left: 4%;
     }
     .trybtn{
-      margin-left: 20%;
+      margin-left: 18%;
     }
     .projTitle1{
-      font-size: 2rem;
-      margin-left: 40%;
+      font-size: 2.4rem;
+      text-align: center;
     }
     .projTitle2{
-      font-size: 2rem;
-      margin-left: 37%;
+      font-size: 2.4rem;
+      text-align: center;
     }
     .projTitle3{
-      font-size: 2rem;
-      margin-left: 33%;
+      font-size: 2.4rem;
+      text-align: center;
 }
     .projimg{
       height:12rem;
@@ -495,16 +492,16 @@ body {
       margin-left: 40%;
 }
   .proj1{
-    font-size: 1.6rem;
+    font-size: 1.8rem;
   }
   .proj2{
-    font-size: 1.6rem;
+    font-size: 1.8rem;
   }
 
   .proj3{
-    font-size: 1.6rem;
+    font-size: 1.8rem;
   }
-} */
+}
 
 /* @media screen and (min-width: 1024px){
   .navBar {
