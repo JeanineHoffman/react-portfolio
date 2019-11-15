@@ -45,12 +45,12 @@ body {
   display: flex;
   flex-direction: row;
   margin-top: 7%;
+  width: 30%;
 }
 
 .logo {
   height: 7rem;
   margin-left: 5%;
-  margin-right: 9%;
 }
 
 .navBar {
@@ -316,6 +316,10 @@ body {
 /* Begin media query styles */
 
 @media screen and (min-width: 411px) {
+  
+  .navWrapper {
+    width: 40%;
+  }
   .navBar {
     margin-left: 15%;
   }
@@ -351,8 +355,11 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+  .navWrapper {
+    width: 80%;
+  }
   .navBar {
-    margin-left: 35%;
+    margin-left: 60%;
   }
   .AdamsQuote {
     font-size: 1.5rem;
@@ -415,9 +422,12 @@ body {
 }
 
 @media screen and (min-width: 1024px) {
+  .navWrapper {
+    width: 80%;
+  }
+  
   .navBar {
-    grid-column-gap: 3%;
-    margin-left: 45%;
+    margin-left: 70%;
   }
   .AdamsQuote {
     width: 70%;
