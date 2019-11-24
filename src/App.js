@@ -8,7 +8,7 @@ import { Route, Switch } from 'react-router-dom';
 import Bio from './components/Bio';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter as Router} from 'react-router-dom';
 
 
 export default class App extends Component {
@@ -16,7 +16,7 @@ export default class App extends Component {
 
     return(
       <div className="App" >
-     <BrowserRouter>
+     <Router>
       <Navigation />
       <Header />
       
@@ -44,7 +44,7 @@ export default class App extends Component {
         />
           </Switch>
           <Footer />
-          </BrowserRouter>
+          </Router>
           </div>
           
       );
