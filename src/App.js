@@ -1,15 +1,52 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './App.css';
+import Navigation from './components/Navigation';
 import HomePage from './HomePage';
 import Header from './components/Header';
+import Footer from './components/Footer';
+import { Route, Switch } from 'react-router-dom';
+import Bio from './components/Bio';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
+import { BrowserRouter } from 'react-router-dom';
 
-function App() {
-  return (
-    <div className="App">
+
+export default class App extends Component {
+  render(){
+
+    return(
+      <div className="App" >
+     <BrowserRouter>
+      <Navigation />
       <Header />
-      <HomePage />
-    </div>
-  );
-}
+      
+      <Switch>
+        <Route
+          exact
+          path={'/'}
+          component={HomePage}
+          />
 
-export default App;
+        <Route
+          exact
+          path={'/bio'}
+          component={Bio}
+          />
+
+        <Route
+          exact
+          path={'/projects'}
+          component={Projects}
+          />
+        <Route 
+        exact path={'/contact'}
+        component={Contact}
+        />
+          </Switch>
+          <Footer />
+          </BrowserRouter>
+          </div>
+          
+      );
+  }
+}
