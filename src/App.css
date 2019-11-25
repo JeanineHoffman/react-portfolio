@@ -1,3 +1,4 @@
+  
 /******************************** 
  * APP STYLES
  ********************************/
@@ -45,26 +46,27 @@ body {
   display: flex;
   flex-direction: row;
   margin-top: 7%;
+  min-width: 100%;
 }
 
 .logo {
-  height: 7rem;
+  height: 5rem;
   margin-left: 5%;
-  margin-right: 9%;
 }
 
 .navBar {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 4em 4em;
+  grid-template-rows: 3em 3em;
   grid-column-gap: 2.5%;
+  margin-left:15%;
 }
 
 .navBtn {
-  height: 3em;
+  height: 2rem;
   width: 5em;
   text-align: center;
-  padding-top: .8em;
+  padding-top: .2em;
   background-color: var(--red);
   color: var(--black);
   font-size: 1em;
@@ -214,12 +216,12 @@ body {
 
 .projTitle1 {
   font-size: 1.6rem;
-  text-align: left;
+  text-align: center;
 }
 
 .projTitle2 {
   font-size: 1.6rem;
-  text-align: left;
+  text-align: center;
 }
 
 .projTitle3 {
@@ -230,7 +232,7 @@ body {
 .projimg {
   height: 7rem;
   width: 8rem;
-  align-self: center;
+  margin-left:30%;
 }
 
 .proj1 {
@@ -316,6 +318,10 @@ body {
 /* Begin media query styles */
 
 @media screen and (min-width: 411px) {
+  
+  .navWrapper {
+    width: 40%;
+  }
   .navBar {
     margin-left: 15%;
   }
@@ -350,9 +356,12 @@ body {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
+  .navWrapper {
+    width: 80%;
+  }
   .navBar {
-    margin-left: 35%;
+    margin-left: 60%;
   }
   .AdamsQuote {
     font-size: 1.5rem;
@@ -415,9 +424,12 @@ body {
 }
 
 @media screen and (min-width: 1024px) {
+  .navWrapper {
+    width: 80%;
+  }
+  
   .navBar {
-    grid-column-gap: 3%;
-    margin-left: 45%;
+    margin-left: 70%;
   }
   .AdamsQuote {
     width: 70%;
