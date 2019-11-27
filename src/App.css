@@ -54,11 +54,12 @@
   }
 
   .navBar {
+    position: absolute;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 3em 3em;
     grid-column-gap: 2.5%;
-    margin-left: 15%;
+    margin-left: 8rem;
   }
 
   .navBtn {
@@ -229,9 +230,9 @@
   }
 
   .projimg {
-    height: 7rem;
-    width: 8rem;
-    margin-left: 30%;
+    height: 24rem;
+    width: 100vw;
+  
   }
 
   .proj1 {
@@ -315,13 +316,22 @@
   /* End Project Styles */
 
   /* Begin media query styles */
-
+  @media screen and (min-width: 360px) {
+    .navBar {
+      margin-left: 10rem;
+    }
+  }
+  @media screen and (min-width: 375px) {
+    .navBar {
+      margin-left: 12rem;
+    }
+  }
   @media screen and (min-width: 411px) {
     .navWrapper {
       width: 95%;
     }
     .navBar {
-      margin-left: 25%;
+      margin-left: 14rem;
     }
     .projTitle1 {
       text-align: center;
@@ -333,10 +343,9 @@
       text-align: center;
     }
     .projimg {
-      height: 9rem;
-      width: 10rem;
-      margin-left: 30%;
-    }
+      height: 34rem;
+      
+    } 
     .btnWrap {
       margin-left: 10%;
     }
@@ -359,7 +368,7 @@
       width: 80%;
     }
     .navBar {
-      margin-left: 60%;
+      margin-left: 32rem;
     }
     .AdamsQuote {
       font-size: 1.5rem;
@@ -415,9 +424,8 @@
       text-align: center;
     }
     .projimg {
-      height: 10rem;
-      width: 11rem;
-      margin-left: 36%;
+      height: 40rem;
+      
     }
   }
 
@@ -426,7 +434,7 @@
       width: 80%;
     }
     .navBar {
-      margin-left: 70%;
+      margin-left: 75%;
     }
     .AdamsQuote {
       width: 70%;
@@ -482,9 +490,8 @@
       text-align: center;
     }
     .projimg {
-      height: 12rem;
-      width: 13rem;
-      margin-left: 40%;
+      height: 36rem;
+     
     }
     .proj1 {
       font-size: 1.8rem;
@@ -562,9 +569,8 @@
       text-align: center;
     }
     .projimg {
-      height: 10rem;
-      width: 11rem;
-      margin-left: 44%;
+      height: 34rem;
+     
     }
     .trybtn {
       height: 3em;
@@ -593,7 +599,7 @@
     .navBar {
       grid-template-columns: 1fr 1fr;
       grid-template-rows: 6em 6em;
-      margin-left: 25rem;
+      margin-left: 44rem;
     }
   
     .navBtn {
@@ -633,9 +639,7 @@
         text-align: center;
       }
        .projimg {
-        height: 19rem;
-        width: 20rem;
-        margin-left: 34.5%;
+        height: 40rem;
       }
       .trybtn {
         height: 3em;
@@ -659,12 +663,12 @@
     } 
     @media screen and (min-width: 1180px) {
       .navBar {
-        margin-left: 28rem;
+        margin-left: 50rem;
       }
     }
     @media screen and (min-width: 1323px) {
       .navBar {
-        margin-left: 30rem;
+        margin-left: 58rem;
       }
       .hero {
         height: 18rem;
@@ -675,12 +679,12 @@
     }
     @media screen and (min-width: 1360px) {
       .navBar {
-        margin-left: 35rem;
+        margin-left: 60rem;
       }
     }
     @media screen and (min-width: 1420px) {
       .navBar {
-        margin-left: 45%;
+        margin-left: 62rem;
       }
       .hero {
         height: 20rem;
@@ -696,15 +700,10 @@
   }
     @media screen and (min-width: 2120px) {
       .navBar {
-        margin-left: 54%;
+        margin-left: 70%;
       }
       .hero {
         height: 35rem;
       }
     }
-
-
-
-    
-
   /* End media query styles */
